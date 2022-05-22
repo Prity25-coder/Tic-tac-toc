@@ -53,7 +53,6 @@ const checkWin = () => {
 };
 
 // game logic
-// music.play();
 let boxes = document.getElementsByClassName("box");
 Array.from(boxes).forEach((element) => {
   let boxText = element.querySelector(".boxText");
