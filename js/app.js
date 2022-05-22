@@ -78,7 +78,7 @@ Array.from(boxes).forEach((element) => {
   });
 });
 
-// add onclick to reset listener button
+// adding onclick event listener to reset button
 reset.addEventListener("click", () => {
   music.pause();
   let boxTexts = document.querySelectorAll(".boxText");
